@@ -23,3 +23,27 @@ body {
   border-radius: 10px;
   max-width: 1000px;
 }
+
+.code-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.code {
+  height: 120px;
+  width: 100px;
+  border: 1px solid #eee;
+  margin: 1%;
+  font-size: 75px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 300;
+}
+
+.code::-webkit-outer-spin-button,
+.code::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
