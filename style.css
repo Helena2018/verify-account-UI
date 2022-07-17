@@ -1,16 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  background-color: #fbfcfe;
+  font-family: 'Muli', sans-serif;
   margin: 0;
   display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
   overflow: hidden;
   height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border: 3px #000 solid;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 1000px;
 }
